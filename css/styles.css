@@ -1,0 +1,376 @@
+#title {
+/* background-color: #8054e9; */
+ background-image: linear-gradient(-45deg, #79B1F6,#8054e9 );
+
+
+}
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+
+}
+
+h3{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+.container-fluid {
+
+padding: 3% 15% 2% 15%;
+
+}
+
+/* Navigation Bar */
+
+.navbar{
+padding: 0 0 4.5rem;
+
+}
+
+
+.navbar-brand {
+
+font-family: 'Raleway', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+
+}
+
+.nav-item {
+padding: 0px 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+color: white;
+
+}
+
+#head-text{
+
+font-family: 'Open Sans', sans-serif;
+color: white; line-height: 1.5;
+font-size: 3.5rem;
+font-weight: 800;
+margin-bottom:2%;
+
+}
+
+
+/* Download Buttons */
+.download-btn{
+margin: 5% 3% 5% 0;
+box-shadow: 3px 3px 10px #212529;
+/* width: 40%;
+height: 8%; */
+/* font-size: 1.5rem; */
+}
+
+/* title image */
+
+.title-image{
+transform: rotate(25deg);
+position: absolute;
+}
+
+
+/* Features Section */
+.feature-icon{
+/* color: #8054e9; */
+margin: auto;
+padding-bottom: 4%;
+background: -webkit-linear-gradient(-45deg, #79B1F6 , #8054e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+/* text-shadow:  0 0 10px #79B1F6; */
+
+}
+
+
+.feature-section {
+text-align: center;
+padding-right: 5%;
+}
+
+#features {
+
+padding: 5% 11% 7% 11% ;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+
+/* Testomonial Section */
+
+#testimonials {
+
+padding: 7% 0 0 0;
+text-align: center;
+/* background-color: #8054e9; */
+background-image: linear-gradient(-45deg, #79B1F6,#8054e9 );
+color: white;
+}
+
+.carousel-item{
+padding: 0 11%;
+
+}
+
+.testimonial-image {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+box-shadow: 0 0 10px grey;
+
+}
+
+#press{
+background-color: #8054e9;
+text-align: center;
+padding-bottom: 3%;
+}
+
+.press-logo{
+
+width: 15%;
+margin: 20px 20px 50px;
+
+}
+
+#testimonial-rating {
+
+margin-bottom: 5%;
+}
+
+
+/* why quoko */
+
+#whyquoko {
+
+padding: 0 5% 0 5%;
+}
+
+.wqhead{
+margin-bottom: 5%;
+font-weight: bold;
+color: #8054e9;
+
+}
+
+.whyquokodiv
+{
+
+  background-color: white;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 7%;
+}
+
+#end{
+
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+#cta{
+
+padding: 3% 3% 0;
+
+}
+
+.download-btn-end{
+margin: 2% 0 2% 0;
+box-shadow: 3px 3px 10px #212529;
+/* width: 40%;
+height: 8%; */
+/* font-size: 1.5rem; */
+}
+
+#footer{
+
+  padding-bottom: 2%;
+}
+
+
+.try{
+
+margin:0;
+
+}
+.wave1 {
+
+background-color: white;
+border-radius: 100%;
+}
+
+.wave2 {
+
+background-color: #8054e9;
+border-radius: 100%;
+
+}
+
+#lol{
+ fill : url(#gradient)
+}
+
+/* FAQ section */
+
+.container-fluid-faq {
+
+padding: 3% 15% 0 15%;
+
+}
+
+.questions{
+padding:3% 5% 5% 5%;
+
+
+}
+
+.question-box {
+color: #141414;
+font-size: 1.5rem;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.question-box:hover{
+
+text-decoration: none;
+color: #8054e9;
+text-shadow: 0 0 1px #8054e9;
+
+}
+
+.f-head{
+  padding-bottom:4%;
+  font-weight: bold;
+  color: #141414;
+}
+
+.f-text{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  color: grey;
+}
+
+#test-head {
+font-size: 3rem;
+
+}
+
+#star-text {
+font-size: 2.5rem;
+}
+
+.test-text{
+font-size: 1.7rem;
+}
+
+
+
+@media (max-width:1028px) {
+
+.title-image {
+
+position: static;
+transform: rotate(0);
+
+}
+
+#title {
+text-align: center;
+}
+
+#testimonial-rating{
+margin-bottom: 12%;
+}
+
+
+.container-whyquoko{
+text-align: center;
+
+}
+
+.download-btn-end {
+  margin: 3% 0 3% 0;
+  box-shadow: 3px 3px 10px #212529;
+
+}
+
+h3 {
+font-size: 1.5rem;
+
+}
+
+.wqhead{
+margin-bottom: 7%;
+font-weight: bold;
+color: #8054e9;
+
+}
+
+
+#head-text {
+
+font-size: 4rem;
+
+}
+
+.test-text{
+font-size: 1.9rem;
+}
+
+.download-btn{
+
+width: 60%;
+height: 20%;
+font-size: 2rem;
+margin-bottom: 5%;
+}
+
+
+
+.f-head{
+  padding-bottom:4%;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #141414;
+}
+
+.f-text{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  color: grey;
+  margin-bottom: 8%;
+
+}
+
+#test-head {
+font-size: 3.5rem;
+
+}
+
+#star-text {
+font-size: 3rem;
+}
+
+.testimonial-image {
+width: 15%;
+border-radius: 100%;
+margin: 20px;
+box-shadow: 0 0 10px grey;
+
+}
+
+
+}
